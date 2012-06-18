@@ -55,7 +55,36 @@ violinpart = \relative {
   
   e8 gis4 e8 d cis16 b cis8 a4 e cis8
   e8 << b'4 gis' >> e8 d cis16 b cis8 a4 e cis8
-  e4 << e b' gis' >>
+  e4 << e b' gis' >> r
+  
+  % 2nd subject
+  
+  b,,4. e8 gis e b4 b b
+  b4. e8 gis e b4 b b
+  a4~ \times 2/3 {a8 b cis} \times 2/3 {dis e fis} gis,4~ \times 2/3 {gis8 a b} \times 2/3 {cis dis e}
+  fis4 e dis dis2 \times 2/3 {e8 gis a}
+
+  b4. e8 gis e b4 b b
+  b4. e8 gis16 e gis e b4 b b
+  \times 2/3 {a8 cis b} \times 2/3 {a8 b cis} \times 2/3 {dis e fis} \times 2/3 {gis, b a} \times 2/3 {gis8 a b} \times 2/3 {cis dis e}
+  fis4 e dis e2 r4
+
+  a2. a
+  a4 gis b e2.
+  a,8 b a2 a8 b a2
+  gis4 e gis a fis dis r2.
+
+  b4. e8 gis e b4 \acciaccatura cis8 b4 b
+  b4. e8 gis16 e gis e b4 \acciaccatura cis8 b4 b
+  \times 2/3 {a8 cis b} \times 2/3 {a8 b cis} \times 2/3 {dis e fis} \times 2/3 {gis, b a} \times 2/3 {gis8 a b} \times 2/3 {cis dis e}
+  
+  \times 2/3 {cis e cis} \times 2/3 {cis a' cis,} \times 2/3 {d b' d,} \times 2/3 {cis a' cis,} \times 2/3 {f gis f} \times 2/3 {fis a fis}
+  gis4 e e' b gis e
+  b2. fis'2\startTrillSpan e8\stopTrillSpan fis
+  \times 2/3 {e gis e} b2 \times 2/3 {gis8 b gis} e2
+  \times 2/3 {b8 e b} \times 2/3 {e gis b} \times 2/3 {e gis b}
+  << b,4 gis' e' >> e, r
+  
 }
 
 \score {
