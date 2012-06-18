@@ -45,8 +45,19 @@ violinpart = \relative {
   d8 e f fis d\prall b gis2 r4
   \times 2/3 {a8 gis b} a4 e'4 a2 cis,4
   \times 2/3 {b8 d fis} e4 gis,
+  
+  a8 a' gis a cis a cis, a' gis a cis a
+  d, a' gis a fis\prall d b e gis b gis e
+  a2.~ a
+  fis b,2 fis'4
+
+  % bridge
+  
+  e8 gis4 e8 d cis16 b cis8 a4 e cis8
+  e8 << b'4 gis' >> e8 d cis16 b cis8 a4 e cis8
+  e4 << e b' gis' >>
 }
-x
+
 \score {
   \new Staff = "violin" {
     \tempo "Allegro" 4 = 132
