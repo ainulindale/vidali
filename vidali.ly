@@ -88,7 +88,7 @@ violinpart = \relative {
   % development
   
   \times 2/3 {e8 dis fis} e4 b4 g2 e4
-  e8 dis f e g fis a2 r4
+  e8 dis fis e g fis a2 r4
   \times 2/3 {fis'8 f g} fis4 dis4 c2 b8 a8
   g b e g fis\prall dis e2 r4
 
@@ -174,4 +174,5 @@ violinpart = \relative {
         \violinpart
     }
   }
+  \midi {}
 }
