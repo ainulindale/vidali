@@ -1,4 +1,4 @@
-Violin Sonata in A Major "Vidali"
+Violin Sonata in A Major “Vidali”
 =================================
 
 First movement of a Violin Sonata dedicated to Ari Vidali
